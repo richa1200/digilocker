@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="../public/stylesheets/SignUp.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+  
+  <div class="container mt-5" id="container">
+            <div class="form-container mt-2">
+              <form action="/users/create" method="POST">
+                <h1 class="font-weight-bold">Create Account</h1>
+               <br>
+                <input type="text" name="name" placeholder="Your Name"required/>
+                <br>
+                <input type="text"  name="RollNo" placeholder="Roll Number(20XX-XXX-XXX)" required/>
+                <br>
+                <input type="email" name="email" placeholder="Your Email" required />
+                <br>
+                <input type="password" name="password" placeholder=" Your Password" required />
+                <br>
+                <input class="btn btn-info btn-rounded" type="submit" value="Sign Up"/>
+                <!-- <button class="btn btn-info btn-rounded" value="Sign Up" >Sign up</button> -->
+              </form>
+            </div>
+            <div class="overlay-rigth mt-2">
+              <h1 class="font-weight-bold">Good to see you!<h1>
+              <p>You already have an account? <br>Sign in!</p>
+             <a href="/users/sign-in"> <button class="but" id="signIn">Sign In</button></a>
+            </div>   
+      </div>
+  <div class="footer">
+      <p> &copy; 2021 ABV-IIITM. All Rights Reserved | Design by  <a href="#"> Group 18</a></p>
+  </div>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" 
+  crossorigin="anonymous"></script> -->
+
+  <!-- <script type="text/javascript" src="/javascripts/SignIn.js"></script> -->
+</body>
+
+ <!-- <h1 class="font-weight-bold">Hello, Friend!</h1>
+          <p>You don't have account yet? Don't worry! You still can join us</p>
+          <button class="but" id="signUp">Sign Up</button> -->
