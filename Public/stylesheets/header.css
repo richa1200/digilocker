@@ -1,0 +1,31 @@
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 0 2vh 2vw;
+}
+.header-left{
+    width:30%;
+}
+
+.header-right{
+    width:70%;
+}
+
+#headerlink
+{
+    color: white;
+    margin: 0 4vw 0 4vw;
+}
+
+.nav1{
+ display: flex;
+ flex-direction: row;
+ flex-grow:1;
+ justify-content: stretch;
+ list-style: none;
+ font-size: 120%;
+ vertical-align: middle;
+ margin: 1vh 0 0 0;
+}
